@@ -1,3 +1,9 @@
- q no-1, hourly report that would generate a full summary 
+  q n0-1, for how long the user was using?  total duration of get and post method individually (user id as input)
+Answer: Problem1.rb
+
+ q no-2, hourly report that would generate a full summary 
  the summary contains (1)time, (2) user_id, (3) URL, (4) Method, (5)time duration. (takes hour as input)
- q n0-2, for how long the user was using?  total duration of get and post method individually (user id as input)
+Answer: Problem2.rb
+
+Problem 2 (Revised) : takes an URI as input and shows hourly report (for each hour shows the total num of users, total num of get methods, total num of post methods, time used in get methods, time used in post methods, total time)
+Answer: Problem2revised.rb
