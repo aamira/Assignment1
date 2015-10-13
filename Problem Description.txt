@@ -1,0 +1,3 @@
+ q no-1, hourly report that would generate a full summary 
+ the summary contains (1)time, (2) user_id, (3) URL, (4) Method, (5)time duration. (takes hour as input)
+ q n0-2, for how long the user was using?  total duration of get and post method individually (user id as input)
