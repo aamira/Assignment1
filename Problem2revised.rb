@@ -63,7 +63,7 @@ begin
     end
   end
     
-  file.close
+  
   #writes output
   output.write("24 Hour Report for URI = "+uri + "\n")
   output.write("hour-----unique_users-----get_req-----post_req-----get_time-----post_time-----total_time\n")
@@ -71,6 +71,10 @@ begin
   24.times do |n|
     output.write("#{n}-----"+data[n].to_s+"\n")
   end
+  
+  file.close
+  output.close
+  
 rescue => err
   puts err
 end
